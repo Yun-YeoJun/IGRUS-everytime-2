@@ -1,0 +1,249 @@
+body {
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    margin: 0;
+    padding-top: 54px;
+    color: #282828;
+}
+
+.top-nav {
+    height: 54px;
+    border-bottom: 1px solid #ebebeb;
+    background: #FFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.left-arrow {
+    position: relative;
+    top: 18px;
+    left: 24px;
+    display: inline;
+    /* margin-top: 18px;
+    margin-left: 24px; */
+}
+
+.top-nav-text-wrapper {
+    position: relative;
+    top: -7px;
+    text-align: center;
+    /* margin-top: 11px; */
+    /*margin-left: 119.79px;*/
+}
+
+.top-nav-title {
+    font-size: 14px;
+    font-style: normal;
+    color: #292A2B;
+}
+
+.top-nav-sub-title {
+    font-size: 14px;
+    font-style: normal;
+    color: #707070;
+    font-weight: 400;
+}
+
+.main-wrapper {
+    margin-top: 9px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.advertisement-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    height: 85px;
+    padding: 0 16px;
+}
+
+.advertisement-text-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.advertisement-title {
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.advertisement-sub-title {
+    color: #373737;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-top: 8px;
+}
+
+.advertisement-picture-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menu-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    padding: 16px 0;
+}
+
+.question-contents-list-wrapper {
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+    -ms-overflow-style: none;
+}
+
+.question-contents-list-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.question-icon-wrapper {
+    padding: 3.56px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 8px;
+}
+
+.question-content-buttons-wrapper {
+    
+}
+
+.question-content-button-wrapper {
+    background-color: #edffff;
+    border-radius: 10px;
+    margin-left: 8px;
+}
+
+.question-content-button {
+    box-sizing: border-box;
+    padding: 13px 8px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    height: 48px;
+}
+
+.hot-icon-wrapper {
+    padding: 2.67px 3.56px 5.33px 5.33px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hot-contents-list-wrapper {
+    display: flex;
+}
+
+.hot-content-button-wrapper {
+    width: 100%;
+    height: 48px;
+    background-color: #FFF3F3;
+    border-radius: 10px;
+    margin-left: 16px;
+}
+
+.hot-content-button {
+    display: flex;
+    height: 48px;
+}
+
+.hot-content-button-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-left: 8px;
+}
+
+.hot-content-button-like-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 8px;
+}
+
+.like {
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+}
+
+.like-num {
+    font-size: 16px;
+    font-weight: 400;
+    color: #EE211A;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    padding: 16px 0;
+    border-top: 1px solid #EBEBEB;
+    background: #FFF;
+}
+
+.content-title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.content-bottom {
+    display: flex;
+}
+
+.comment {
+    display: flex;
+    gap: 4px;
+    margin-left: 8px;
+}
+
+.comment-icon {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.comment-num {
+    color: #24ABB1;
+    font-size: 16px;
+}
+
+.separator {
+    font-size: 10px;
+    color: #A6A6A6;
+    text-align: center;
+    line-height: 22px;
+    margin-left: 4px;
+}
+
+.content-time {
+    color: #A6A6A6;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-left: 4px;
+}
+
+.content-writter {
+    color:#A6A6A6;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.margin-left-0 {
+    margin-left: 0px;
+}
