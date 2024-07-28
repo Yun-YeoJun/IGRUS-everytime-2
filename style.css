@@ -20,16 +20,12 @@ body {
     top: 18px;
     left: 24px;
     display: inline;
-    /* margin-top: 18px;
-    margin-left: 24px; */
 }
 
 .top-nav-text-wrapper {
     position: relative;
     top: -7px;
     text-align: center;
-    /* margin-top: 11px; */
-    /*margin-left: 119.79px;*/
 }
 
 .top-nav-title {
@@ -111,10 +107,6 @@ body {
     justify-content: center;
     flex-direction: column;
     margin-right: 8px;
-}
-
-.question-content-buttons-wrapper {
-    
 }
 
 .question-content-button-wrapper {
